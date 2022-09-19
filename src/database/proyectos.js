@@ -13,7 +13,7 @@ export const proyectos = [
         nombre: " Heroes App - ¿Team Marvel o Dc? ",
         descripcion: "Aplicación web donde podrás elegir y conocer más acerca de tu héroe favorito de Marvel o Dc",
         stack: "React - JSX - Tailwind - Firebase - Heroku",
-        link_preview: "https://lecv-landing.netlify.app",
+        link_preview: "https://lecv-tu-team-marvel-dc.netlify.app",
         link_github: "https://github.com/luisenrique0021/LECV-landing-page",
         imagen: "heroes.png" 
     },
@@ -40,7 +40,7 @@ export const proyectos = [
         nombre: " Landing Page - Mi página web profesional ",
         descripcion: "Aquí te presento mi perfil profesional: Perfil, Estudios, Experiencia, Contacto, Portafolio. Espero que podamos trabajar juntos.",
         stack: "React - JSX - Material UI - Figma",
-        link_preview: "https://lecv-todo-app.netlify.app",
+        link_preview: "https://lecv-landing.netlify.app",
         link_github: "https://github.com/luisenrique0021/ToDoApp-LuisForm.git",
         imagen: "landing.png", 
     }
