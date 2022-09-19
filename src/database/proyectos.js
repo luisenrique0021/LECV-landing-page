@@ -13,8 +13,8 @@ export const proyectos = [
         nombre: " Heroes App - ¿Team Marvel o Dc? ",
         descripcion: "Aplicación web donde podrás elegir y conocer más acerca de tu héroe favorito de Marvel o Dc",
         stack: "React - JSX - Tailwind - Firebase - Heroku",
-        link_preview: "https://lecv-tu-team-marvel-dc.netlify.app",
-        link_github: "https://github.com/luisenrique0021/LECV-Heroes-Marvel-Dc",
+        link_preview: "https://lecv-landing.netlify.app",
+        link_github: "https://github.com/luisenrique0021/LECV-landing-page",
         imagen: "heroes.png" 
     },
     {
