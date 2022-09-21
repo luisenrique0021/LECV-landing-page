@@ -35,7 +35,7 @@ export const EstudiosPage = () => {
       <Grid container>
         <Grid sx={{ textAlign: "left" }} item xs={12} sm={6}>
           {estudiosdbleft.map((estudio) => (
-            <Paper sx={{ margin: 4, padding: 4, borderRadius: 5 }} elevation={8}>
+            <Paper key={estudio.id} sx={{ margin: 4, padding: 4, borderRadius: 5 }} elevation={8}>
               <Avatar variant={"rounded"} alt={estudio.nombre} src={estudio.imagen} style={{
                 width: 90,
                 height: 60,
@@ -73,7 +73,7 @@ export const EstudiosPage = () => {
 
         <Grid sx={{ textAlign: "left" }} item xs={12} sm={6}>
           {estudiosdbright.map((estudio) => (
-            <Paper sx={{ margin: 4, padding: 4, borderRadius: 5 }} elevation={8}>
+            <Paper key={estudio.id} sx={{ margin: 4, padding: 4, borderRadius: 5 }} elevation={8}>
               <Avatar variant={"rounded"} alt={estudio.nombre} src={estudio.imagen} style={{
                 width: 90,
                 height: 60,

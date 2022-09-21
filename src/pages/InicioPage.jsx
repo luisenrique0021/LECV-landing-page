@@ -38,8 +38,21 @@ export const InicioPage = () => {
           }}>
             ... y juntos, vamos a hacerlo posible 👋
           </Typography>
-          <img src={imagenlogos} />
-          {/* <Button
+          <Grid sx={{
+            textAlign: "center",
+            marginTop: { xs: 1, md: 1 },
+          }}
+          >
+            <img src={frase}
+              className="frasemain"
+            // style={{
+            //   maxWidth: 400,
+            //   height: "auto",
+            //   padding: 0,
+            //   marginTop: 25,
+            // }}
+            />
+            {/* <Button
             sx={{ borderRadius: 10, backgroundColor: "black", marginTop: 3, backgroundPosition: "center",
             textAlign: { xs: "center", md: "center" } }}
             href="https://github.com/luisenrique0021"
@@ -48,28 +61,35 @@ export const InicioPage = () => {
             variant="outlined"
             startIcon={<GitHubIcon />}
           >My GitHub Profile</Button> */}
+
+          </Grid>
         </Grid>
         <Grid sx={{
           textAlign: { xs: "center", md: "right" },
-          marginTop: { xs: 10, md: 0 },
+          // marginTop: { xs: 5, md: 18 },
+          margin: "auto",
         }}
           item
           xs={12}
           sm={6}
         >
-          <img src={frase} />
+          <img src={imagenlogos}
+            className="portafolio"
+          />
         </Grid>
         <Grid sx={{
           textAlign: { margin: "auto" },
           // marginTop: { xs: 10, md: 0 },
         }}
-          // item
-          // xs={12}
-          // sm={6}
+        // item
+        // xs={12}
+        // sm={6}
         >
-              <Button
-            sx={{ borderRadius: 10, backgroundColor: "black", marginTop: 3, backgroundPosition: "center",
-            textAlign: { xs: "center", md: "center" } }}
+          <Button
+            sx={{
+              borderRadius: 10, backgroundColor: "black", marginTop: 3, backgroundPosition: "center",
+              textAlign: { xs: "center", md: "center" }
+            }}
             href="https://github.com/luisenrique0021"
             target="_blank"
             size="large"

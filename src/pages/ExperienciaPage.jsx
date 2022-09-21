@@ -35,7 +35,7 @@ export const ExperienciaPage = () => {
               rowSpacing={2}
               columnSpacing={{ xs: 1, sm: 2, md: 3 }}
             >
-              <Grid item md={6} xs={12}>
+              <Grid sx={{ textAlign: "center" }} item md={6} xs={12}>
                 {/* <Avatar variant={"rounded"} alt={experiencia.cargo} src={experiencia.imagen} style={{
                    width: 470,
                    height: 350,
@@ -46,7 +46,11 @@ export const ExperienciaPage = () => {
                   className="experience"
                   src={experiencia.imagen}
                   alt={experiencia.nombre}
-                  style={{margin:"auto"}}
+                  // style={{maxWidth: 250,
+                  //   height: "auto",
+                  //   padding: 0,
+                  //   marginTop: 39,}}
+                  
                 />
               </Grid>
               <Grid item md={6} xs={12}>
