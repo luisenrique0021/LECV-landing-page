@@ -95,42 +95,66 @@ export const NavBar = () => {
 
                             <Link activeClass="active" smooth spy to="inicio">
                                 <Typography
-                                    sx={{ marginRight: 2, padding: 2, cursor: "pointer" }}
+                                    sx={{
+                                        marginRight: 2, padding: 2, cursor: "pointer", '&:hover': {
+                                            background: "yellow"
+                                        },
+                                    }}
                                 >
                                     Inicio
                                 </Typography>
                             </Link>
                             <Link activeClass="active" smooth spy to="perfil">
                                 <Typography
-                                    sx={{ marginRight: 2, padding: 2, cursor: "pointer" }}
+                                    sx={{
+                                        marginRight: 2, padding: 2, cursor: "pointer", '&:hover': {
+                                            background: "yellow"
+                                        },
+                                    }}
                                 >
                                     Perfil
                                 </Typography>
                             </Link>
                             <Link activeClass="active" smooth spy to="estudios">
                                 <Typography
-                                    sx={{ marginRight: 2, padding: 2, cursor: "pointer" }}
+                                    sx={{
+                                        marginRight: 2, padding: 2, cursor: "pointer", '&:hover': {
+                                            background: "yellow"
+                                        },
+                                    }}
                                 >
                                     Estudios
                                 </Typography>
                             </Link>
                             <Link activeClass="active" smooth spy to="experiencia">
                                 <Typography
-                                    sx={{ marginRight: 2, padding: 2, cursor: "pointer" }}
+                                    sx={{
+                                        marginRight: 2, padding: 2, cursor: "pointer", '&:hover': {
+                                            background: "yellow"
+                                        },
+                                    }}
                                 >
                                     Experiencia
                                 </Typography>
                             </Link>
                             <Link activeClass="active" smooth spy to="portafolio">
                                 <Typography
-                                    sx={{ marginRight: 2, padding: 2, cursor: "pointer" }}
+                                    sx={{
+                                        marginRight: 2, padding: 2, cursor: "pointer", '&:hover': {
+                                            background: "yellow"
+                                        },
+                                    }}
                                 >
                                     Portafolio
                                 </Typography>
                             </Link>
                             <Link activeClass="active" smooth spy to="contacto">
                                 <Typography
-                                    sx={{ marginRight: 2, padding: 2, cursor: "pointer" }}
+                                    sx={{
+                                        marginRight: 2, padding: 2, cursor: "pointer", '&:hover': {
+                                            background: "yellow"
+                                        },
+                                    }}
                                 >
                                     Contacto
                                 </Typography>
@@ -174,22 +198,22 @@ export const NavBar = () => {
                     >
 
                         <Link activeClass='active' smooth spy to="inicio">
-                            <Typography sx={{ marginLeft: 6 }}>Inicio</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>Inicio</Typography>
                         </Link>
                         <Link activeClass='active' smooth spy to="perfil">
-                            <Typography sx={{ marginLeft: 6 }}>perfil</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>perfil</Typography>
                         </Link>
                         <Link activeClass='active' smooth spy to="estudios">
-                            <Typography sx={{ marginLeft: 6 }}>estudios</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>estudios</Typography>
                         </Link>
                         <Link activeClass='active' smooth spy to="experiencia">
-                            <Typography sx={{ marginLeft: 6 }}>experiencia</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>experiencia</Typography>
                         </Link>
                         <Link activeClass='active' smooth spy to="portafolio">
-                            <Typography sx={{ marginLeft: 6 }}>portafolio</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>portafolio</Typography>
                         </Link>
                         <Link activeClass='active' smooth spy to="contacto">
-                            <Typography sx={{ marginLeft: 6 }}>contacto</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>contacto</Typography>
                         </Link>
                     </Box>
                 </Toolbar>

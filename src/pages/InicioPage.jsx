@@ -88,7 +88,10 @@ export const InicioPage = () => {
           <Button
             sx={{
               borderRadius: 10, backgroundColor: "black", marginTop: 3, backgroundPosition: "center",
-              textAlign: { xs: "center", md: "center" }
+              textAlign: { xs: "center", md: "center" }, '&:hover': {
+                background: "white",    
+                             
+                }
             }}
             href="https://github.com/luisenrique0021"
             target="_blank"

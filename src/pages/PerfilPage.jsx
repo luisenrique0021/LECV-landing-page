@@ -40,18 +40,19 @@ export const PerfilPage = () => {
           }}>
             Mucho gusto 🤝, mi nombre es Luis Enrique Chavez Vergara
           </Typography>
-          <Avatar variant={"rounded"} alt="The image" src={profilephoto} style={{
+          <img alt="The image" src={profilephoto} className="profile" />
+          {/* <Avatar variant={"rounded"} alt="The image" src={profilephoto} className="portafolio" style={{
             width: 500,
             height: 500,
             margin: "auto",
-            // alignSelf: 'center',
-          }} />
+            alignSelf: 'center',
+          }} /> */}
           {/* <Avatar variant={"rounded"} alt="The image" src={logotailwind} style={{
             width: 500,
             height: 100,
             margin: "auto",
             marginBottom: 4,
-            // alignSelf: 'center',
+            alignSelf: 'center',
           }} /> */}
           
           <Typography variant="h3" sx={{
