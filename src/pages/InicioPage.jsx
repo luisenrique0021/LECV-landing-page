@@ -31,8 +31,8 @@ export const InicioPage = () => {
           </Typography>
           <Typography variant="h2" sx={{
             fontFamily: "quicksand",
-            fontWeight: "semibold",
-            color: "segundo.main",
+            fontWeight: "bold",
+            color: "quinto.main",
             fontSize: 26,
             marginBottom: 3
           }}>

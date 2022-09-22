@@ -24,7 +24,8 @@ export const PerfilPage = () => {
           <Typography variant="h1" sx={{
             fontFamily: "quicksand",
             fontWeight: "bold",
-            color: "primero.main",
+            color: "tercero.main",
+            backgroundColor: "segundo.main",
             fontSize: 46,
             marginBottom: 6,
           }}>

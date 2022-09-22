@@ -2,6 +2,7 @@ import { Button, Container, Grid, Typography } from "@mui/material"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import SendIcon from '@mui/icons-material/Send';
 
 export const ContactoPage = () => {
   return (
@@ -17,7 +18,8 @@ export const ContactoPage = () => {
       margin="auto"
     >
       <Typography variant="h1" sx={{
-        color: "primero.main",
+        color: "tercero.main",
+        backgroundColor: "segundo.main",
         fontFamily: "quicksand",
         fontSize: 30,
         fontWeight: "bold",
@@ -59,7 +61,7 @@ export const ContactoPage = () => {
         size= "large"
         variant= "contained"
         startIcon={<WhatsAppIcon />}
-        href="https://wa.me/573167009725?text=Hola 👋 soy un Desarrollador Web con React"
+        href="https://wa.me/573167009725?text=Hola👋 Luis Enrique, requiero de tus servicios"
         target="_blank"
         >
           WhatsApp
@@ -78,6 +80,21 @@ export const ContactoPage = () => {
         target="_blank"
         >
           LinkedIn
+        </Button>
+        <Button
+        sx={{
+          m: 3,
+          borderRadius: 10,
+          backgroundColor: "blue",
+          color: "white",
+        }}
+        size= "large"
+        variant= "contained"
+        startIcon={<SendIcon />}
+        href="mailto:luisenrique0021@gmail.com?subject=Hola Luis, requiero de tus servicios 🤓"
+        target="_blank"
+        >
+          correo
         </Button>
       </Grid>
       </Grid>

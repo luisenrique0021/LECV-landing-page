@@ -18,7 +18,8 @@ export const ExperienciaPage = () => {
       maxWidth="full"
     >
       <Typography variant="h1" sx={{
-        color: "primero.main",
+        color: "tercero.main",
+        backgroundColor: "segundo.main",
         fontFamily: "quicksand",
         fontSize: 42,
         fontWeight: "bold",
