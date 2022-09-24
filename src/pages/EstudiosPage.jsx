@@ -38,7 +38,7 @@ export const EstudiosPage = () => {
           {estudiosdbleft.map((estudio) => (
             <Paper key={estudio.id} sx={{ margin: 4, padding: 4, borderRadius: 5 }} elevation={8}>
               <Avatar variant={"rounded"} alt={estudio.nombre} src={estudio.imagen} style={{
-                width: 90,
+                width: 100,
                 height: 60,
                 margin: "auto",
                 // alignSelf: 'center',

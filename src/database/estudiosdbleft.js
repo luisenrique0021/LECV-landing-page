@@ -2,9 +2,9 @@ export const estudiosdbleft = [
     {
         id: 1,
         nombre: " Diplomado en Desarrollo Front-end con React JS ",
-        institucion: " FIMLM, LIVE-BOX ",
+        institucion: " CAMPUS FIMLM, LIVE-BOX ",
         año: "2022",
-        imagen: "logo-fimlm.png" 
+        imagen: "logo-campus-plus.png"
     },
     {
         id: 2,

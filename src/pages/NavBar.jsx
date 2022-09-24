@@ -54,6 +54,9 @@ export const NavBar = () => {
                             fontWeight: 700,
                             color: 'primero.main',
                             textDecoration: 'none',
+                            '&:hover': {
+                                color: "white"
+                            },
                         }}
                     >
                         Luis Enrique Chavez Vergara
@@ -198,22 +201,22 @@ export const NavBar = () => {
                     >
 
                         <Link activeClass='active' smooth spy to="inicio">
-                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>Inicio</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "#00BFFF" } }}>Inicio</Typography>
                         </Link>
                         <Link activeClass='active' smooth spy to="perfil">
-                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>perfil</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "#00BFFF" } }}>perfil</Typography>
                         </Link>
                         <Link activeClass='active' smooth spy to="estudios">
-                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>estudios</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "#00BFFF" } }}>estudios</Typography>
                         </Link>
                         <Link activeClass='active' smooth spy to="experiencia">
-                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>experiencia</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "#00BFFF" } }}>experiencia</Typography>
                         </Link>
                         <Link activeClass='active' smooth spy to="portafolio">
-                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>portafolio</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "#00BFFF" } }}>portafolio</Typography>
                         </Link>
                         <Link activeClass='active' smooth spy to="contacto">
-                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "yellow" } }}>contacto</Typography>
+                            <Typography sx={{ marginLeft: 6, '&:hover': { color: "#00BFFF" } }}>contacto</Typography>
                         </Link>
                     </Box>
                 </Toolbar>

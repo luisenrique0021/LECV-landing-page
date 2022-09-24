@@ -26,7 +26,7 @@ export const PerfilPage = () => {
             fontWeight: "bold",
             color: "tercero.main",
             backgroundColor: "segundo.main",
-            fontSize: 46,
+            fontSize: 42,
             marginBottom: 6,
           }}>
             LA PERSONA DETRÁS DEL DESARROLLADOR
