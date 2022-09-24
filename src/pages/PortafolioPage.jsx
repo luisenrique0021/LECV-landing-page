@@ -73,9 +73,15 @@ export const PortafolioPage = () => {
                     sx={{
                       borderRadius: 10,
                       backgroundColor: "quinto.main",
+                      color: "white",
+                      '&:hover': {
+                        background: "white",
+                        color: "black"
+                    }
                     }}
                       size="large"
-                      variant="contained"
+                      // variant="contained"
+                      variant="outlined"
                       startIcon={<ArrowOutwardIcon />}
                       href={proyecto.link_preview}
                       target="_blank"
@@ -86,9 +92,15 @@ export const PortafolioPage = () => {
                     sx={{
                       borderRadius: 10,
                       backgroundColor: "primero.main",
+                      color: "white",
+                      '&:hover': {
+                        background: "white",
+                        color: "black"
+                    }
                     }}
                       size="large"
-                      variant="contained"
+                      // variant="contained"
+                      variant="outlined"
                       startIcon={<GitHubIcon />}
                       href={proyecto.link_github}
                       target="_blank"

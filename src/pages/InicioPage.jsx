@@ -89,9 +89,9 @@ export const InicioPage = () => {
             sx={{
               borderRadius: 10, backgroundColor: "black", marginTop: 3, backgroundPosition: "center",
               textAlign: { xs: "center", md: "center" }, '&:hover': {
-                background: "white",    
-                             
-                }
+                background: "white",
+                color: "black",
+              }
             }}
             href="https://github.com/luisenrique0021"
             target="_blank"

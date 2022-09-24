@@ -101,9 +101,14 @@ export const ExperienciaPage = () => {
                       borderRadius: 10,
                       backgroundColor: "quinto.main",
                       margin: "auto",
+                      color: "white",
+                      '&:hover': {
+                        background: "white",
+                        color: "black"
+                    }
                     }}
                     size="large"
-                    variant="contained"
+                    variant="outlined"
                     startIcon={<ArrowOutwardIcon />}
                     href={experiencia.link_preview}
                     target="_blank"

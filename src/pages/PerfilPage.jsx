@@ -29,7 +29,7 @@ export const PerfilPage = () => {
             fontSize: 42,
             marginBottom: 6,
           }}>
-            LA PERSONA DETRÁS DEL DESARROLLADOR
+            LA PERSONA DETRÁS DEL "DEVELOPER"
           </Typography>
           <Typography variant="h1" sx={{
             fontFamily: "quicksand",
